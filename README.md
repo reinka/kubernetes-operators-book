@@ -1,1 +1,1 @@
-# Code used for OpenShift's Kubernetes Operators
+# Code used in OpenShift's Kubernetes Operators book
