@@ -37,7 +37,8 @@ type VisitorsAppSpec struct {
 type VisitorsAppStatus struct {
 	// INSERT ADDITIONAL STATUS FIELD - define observed state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
-	Nodes []string `json:"nodes"`
+	BackendImage  string `json:"backendImage"`
+	FrontendImage string `json:"frontendImage"`
 }
 
 //+kubebuilder:object:root=true
